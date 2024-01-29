@@ -1,0 +1,1 @@
+[27-Jan-2024 17:23:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\new-planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905

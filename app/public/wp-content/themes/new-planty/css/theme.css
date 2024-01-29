@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+   /* Import de la font Syne depuis Google Fonts et on l'applique sur tous les éléments de la page */
+  
+
+
+
+   /*form-commander*/
+
+   .row {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+  }
+
+
+  .col {
+   display: flex;
+   justify-content: space-around;
+   width: 4%;
+   margin-bottom: 50px;
+}
+
+/*supprime les flèches des boutons d'incrémentation des champs */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.separateur1 {
+   border-top: 1px solid white;
+   margin-bottom: 35px !important;
+}
+
+.separateur2 {
+   position: absolute;
+   border-left: 1px solid white;
+   height: 235px;
+   right: 50%;
+}
+
+.row-1 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around ;
+   font-family: 'Syne', sans-serif;
+   color: #fff;
+}
+
+.col1 {
+  padding-left: 21%;
+}
+
+
+.col2 {
+   width: 41%;
+}
+
+
+/* butoon commander */
+
+.wpcf7-form input[type="submit"] {
+   font-family: syne;
+   background-color: #E0B9B4;
+   color: white;
+   font-size: 15px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 37px;
+   display: block;
+   margin: auto;
+   width: 198px;
+   height: 55px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+   margin-top: 20px;
+ }
+

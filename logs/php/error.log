@@ -1,1 +1,5 @@
 [27-Jan-2024 17:23:33 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\new-planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Jan-2024 08:34:44 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\new-planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Jan-2024 08:45:41 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\new-planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Jan-2024 08:50:42 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\new-planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[30-Jan-2024 09:20:38 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\User\Local Sites\new-planty\app\public\wp-includes\class-wp-customize-widgets.php on line 905

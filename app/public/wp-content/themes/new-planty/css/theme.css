@@ -44,10 +44,11 @@ li.menu-item a {
   }
 
 
+
   .col {
    display: flex;
    justify-content: space-around;
-   width: 4%;
+   width: 40px;
    margin-bottom: 50px;
 }
 
@@ -67,7 +68,7 @@ input::-webkit-inner-spin-button {
 .separateur2 {
    position: absolute;
    border-left: 1px solid white;
-   height: 235px;
+   height: 275px;
    right: 50%;
 }
 
@@ -88,6 +89,9 @@ input::-webkit-inner-spin-button {
    width: 41%;
 }
 
+.wpcf7-form-control, .wpcf7-text{
+   margin-top: 15px;
+ }
 
 /* butoon commander */
 

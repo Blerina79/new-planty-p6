@@ -36,7 +36,6 @@ li.menu-item a {
 
 
 
-
    /*form-commander*/
 
    .row {
@@ -47,7 +46,6 @@ li.menu-item a {
       flex-wrap: nowrap;
       align-items: center;
   }
-
 
 
   .col {
@@ -102,15 +100,8 @@ input::-webkit-inner-spin-button {
 .titre-1  h3 {
   font-size: 36px;
 }
-/*
-.col {
-   display: flex;
-   justify-content: space-around;
-   width: 43px;
-   margin-bottom: 25px;
-}
 
-*/
+
 .col2 h3 {
    font-size: 36px;
 }
@@ -209,6 +200,11 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
 
    }
 
+   .elementor-8 .elementor-element.elementor-element-9cf6794 > .elementor-widget-container {
+      margin: 0px 0px 0px 0px;
+      padding: 0px 5px 0px 5px !important;
+   
+  }
 
 }
 

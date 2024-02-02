@@ -35,22 +35,36 @@ li.menu-item a {
 } 
 
 
+
+
    /*form-commander*/
 
    .row {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       width: 100%;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
   }
 
 
 
   .col {
-   display: flex;
-   justify-content: space-around;
-   width: 40px;
-   margin-bottom: 50px;
-}
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      align-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+   }
+   .col .img-fruits{
+      width: 100%;
+   }
+   .hidden{
+      display: none!important;
+   }
 
 /*supprime les flèches des boutons d'incrémentation des champs */
 
@@ -68,7 +82,7 @@ input::-webkit-inner-spin-button {
 .separateur2 {
    position: absolute;
    border-left: 1px solid white;
-   height: 275px;
+   height: 365px;
    right: 50%;
 }
 
@@ -80,18 +94,58 @@ input::-webkit-inner-spin-button {
    color: #fff;
 }
 
-.col1 {
-  padding-left: 21%;
+.row-1 label {
+   font-size: 20px;
+   margin-bottom: 15px; 
+}
+
+.titre-1  h3 {
+  font-size: 36px;
+}
+/*
+.col {
+   display: flex;
+   justify-content: space-around;
+   width: 43px;
+   margin-bottom: 25px;
+}
+
+*/
+.col2 h3 {
+   font-size: 36px;
 }
 
 
 .col2 {
    width: 41%;
+   padding-left: 8%;
 }
 
 .wpcf7-form-control, .wpcf7-text{
    margin-top: 15px;
+   padding-bottom: 30px;
+   border: none;
  }
+
+ .wpcf7-form input[type=text],
+ .wpcf7-form input[type="email"],
+ .wpcf7-form input[type="textarea"],
+ textarea {
+   padding: 15px;
+   border-radius: 7px;
+   border: none;
+   
+}
+
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number{
+   font-size: 15px;
+   width: 33px;
+   padding: 8px;
+   padding-left: 12px;
+   height: 55px;
+   border-radius: 0;
+   }
+
 
 /* butoon commander */
 
@@ -111,5 +165,86 @@ input::-webkit-inner-spin-button {
    align-items: center;
    border-radius: 5px;
    margin-top: 20px;
+   border:none;
  }
 
+
+
+ /*footer*/
+
+ .site-footer {
+   padding-block-start: 0 !important; 
+   padding-block-end: 0 !important; 
+
+}
+
+@media (max-width: 425px) {
+
+   .row-1 {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .separateur2 {
+      
+      border: none;
+      text-decoration: none;
+   }
+
+   .col1{
+      width: 90% !important;
+   }
+
+   .col2 {
+      width: 90% !important;
+      align-items: center;
+      padding-left: 1px;
+     
+   }
+
+   .row {
+      flex-direction: column;
+      align-items: center;
+
+   }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+   .row {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+
+  .row-1{  
+   flex-direction: row;
+   font-family: 'Syne', sans-serif;
+   color: #fff;
+   align-items: center;
+   flex-wrap: wrap;
+   align-content: stretch;
+   justify-content: space-around;
+}
+
+.col1{
+   width: 45%;
+}
+
+.col2 {
+    width: 52%;
+   
+}
+
+}
